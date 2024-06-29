@@ -133,7 +133,7 @@ st.text(f"Current Document: {st.session_state.file_name}")
 lead_tool = st.selectbox(
    "Choose Lead Generation Tool",
 #    ("Outscraper", "SocLeads", "Octoparse", "Telescope"),
-   ("Outscraper"),
+   ("Outscraper", ),
     key="lead_tool"
 )
 
